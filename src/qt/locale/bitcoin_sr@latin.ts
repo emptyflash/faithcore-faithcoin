@@ -158,16 +158,16 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Pošalji novčiće na Litecoin adresu</translation>
+        <source>Send coins to a Faithcoin address</source>
+        <translation>Pošalji novčiće na Faithcoin adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Faithcoin</source>
+        <translation>Faithcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -412,8 +412,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Faithcoin Core</source>
+        <translation>Faithcoin Core</translation>
     </message>
     <message>
         <source>Information</source>

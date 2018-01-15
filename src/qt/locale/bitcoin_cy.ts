@@ -114,8 +114,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Faithcoin</source>
+        <translation>Faithcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -490,8 +490,8 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Craidd Litecoin</translation>
+        <source>Faithcoin Core</source>
+        <translation>Craidd Faithcoin</translation>
     </message>
     <message>
         <source>Information</source>

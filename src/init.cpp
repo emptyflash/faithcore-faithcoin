@@ -185,7 +185,7 @@ void Shutdown()
     /// for example if the data directory was found to be locked.
     /// Be sure that anything that writes files or flushes caches only does this if the respective
     /// module was initialized.
-    RenameThread("litecoin-shutoff");
+    RenameThread("faithcoin-shutoff");
     mempool.AddTransactionsUpdated(1);
 
     StopHTTPRPC();
@@ -485,8 +485,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/litecoin-project/litecoin>";
-    const std::string URL_WEBSITE = "<https://litecoin.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/faithcoin-project/faithcoin>";
+    const std::string URL_WEBSITE = "<https://faithcoin.org>";
     // todo: remove urls from translations on next change
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -590,7 +590,7 @@ void CleanupBlockRevFiles()
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
     const CChainParams& chainparams = Params();
-    RenameThread("litecoin-loadblk");
+    RenameThread("faithcoin-loadblk");
     CImportingNow imp;
 
     // -reindex
@@ -778,7 +778,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Litecoin version %s\n", FormatFullVersion());
+    LogPrintf("Faithcoin version %s\n", FormatFullVersion());
 }
 
 /** Initialize bitcoin.
