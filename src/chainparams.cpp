@@ -118,11 +118,12 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x805d8d176abe872f5cd40b558869a0d25ed02ae471fa33f80185443e5ca9cb40"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-a.faithcoin.loshan.co.uk", true));
-        vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
-        vSeeds.push_back(CDNSSeedData("faithcointools.com", "dnsseed.faithcointools.com"));
-        vSeeds.push_back(CDNSSeedData("faithcoinpool.org", "dnsseed.faithcoinpool.org"));
-        vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
+	vSeeds.push_back(CDNSSeedData("faithco.in", "dnsseed.faithco.in", true));
+	//vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-a.faithcoin.loshan.co.uk", true));
+        //vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
+        //vSeeds.push_back(CDNSSeedData("faithcointools.com", "dnsseed.faithcointools.com"));
+        //vSeeds.push_back(CDNSSeedData("faithcoinpool.org", "dnsseed.faithcoinpool.org"));
+        //vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
